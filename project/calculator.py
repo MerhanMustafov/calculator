@@ -49,6 +49,3 @@ enterButton.place(x=90, y=100)
 enterButton['font'] = myFont
 
 window.mainloop()
-
-
-
