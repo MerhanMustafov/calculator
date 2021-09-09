@@ -29,7 +29,7 @@ from tkinter import *
 from tkinter import font
 
 window = Tk(className=" calculator")
-window.configure(bg='#74D3FF')
+window.configure(bg='#222222')
 window.geometry('350x300')
 
 myFont = font.Font(family='bold', size=23)
