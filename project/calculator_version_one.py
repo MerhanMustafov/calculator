@@ -1,4 +1,5 @@
 def click():
+    output.delete(0, 'end')
     deliminator = [el for el in input_entry.get() if not el.isdigit() and not el.isspace()]
     if deliminator:
         deliminator = deliminator[0]
